@@ -1,0 +1,30 @@
+button{
+  border: none; 
+  background-color: rgba(163, 123, 105, 0.735);
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.checkout{
+  margin: auto;
+  width: 10%;
+  border: none;
+  padding: 10px;
+}
+
+.basket{
+  margin: auto;
+  width: 12%;
+  border: none;
+  padding: 10px;
+}
+
+.cart{
+    text-align: center;
+    height: 80%;
+  }
+
+

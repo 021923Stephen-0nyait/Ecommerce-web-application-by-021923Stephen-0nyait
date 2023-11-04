@@ -1,0 +1,39 @@
+/**Styling view order page and view product*/
+
+h1{
+  color: rgb(170, 123, 87);
+  background-color: transparent;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #ffffff6d;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #8379521c;
+}
+
+tr:hover{
+  background-color: rgba(164, 172, 112, 0.491);
+}
+
+#edit{
+  display: none;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

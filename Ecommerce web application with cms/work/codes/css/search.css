@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.contain{
+    min-height: 100%;
+}
+
+.main{
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+footer{
+    background: black;
+    position: relative;
+    margin-top: -100px;
+    height: 100px;
+    clear: both;
+}

@@ -1,0 +1,148 @@
+/**Styling add product page and edit product page*/
+/**Styling input*/
+input{
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/**Styling input field and select*/
+input[type=text], select {
+  margin-top: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.103);
+  border-bottom: 1px solid rgba(112, 80, 70, 0.579);
+  color: white;
+}
+
+/**Styling submit field*/
+input[type=submit]{
+  border: none; 
+  background-color: rgba(163, 123, 105, 0.735);
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+
+input[type=submit]:hover {
+  background-color: #e6b27ad4;
+  align-items: center;
+}
+
+/**Styling id AddProduct*/
+#AddProduct {
+  border-radius: 5px;
+  background-color: #f2f2f200;
+  padding: 20px;
+}
+
+/**Styling form*/
+form{
+  transform: translate(116%,15%); 
+  width: 30%;
+  height: auto;
+  background: rgba(116, 110, 110, 0.089);
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border-top: 0;
+  border-color: rgba(68, 68, 68, 0.484);
+  border-radius: 35px;
+}
+
+#edit form{
+  transform: translate(120%,-25%); 
+  width: 30%;
+  height: auto;
+  background: rgba(116, 110, 110, 0.089);
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border-top: 0;
+  border-color: rgba(68, 68, 68, 0.484);
+  border-radius: 35px;
+}
+
+/**Styling view order page and view product*/
+
+h1{
+  color: rgb(170, 123, 87);
+  background-color: transparent;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #ffffff6d;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #8379521c;
+}
+
+tr:hover{
+  background-color: rgba(164, 172, 112, 0.491);
+}
+
+#edit{
+  display: none;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**Styling edit product page*/
+#ID{
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 39%;
+  border-radius: 25px;
+}
+
+#ID input[type=text]{
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 35%;
+}
+
+#ID input[type=submit]{
+  margin-top: 2%;
+  margin-left: 0;
+  width: 30%;
+}
+
+#ID-DELETE{
+  margin-top: 5%; 
+  left: 50%; 
+  transform: translate(93%,50%);  
+  font-family: arial, sans-serif;
+  width: 35%;
+}
+
+/**add a background image for all the pages */
+body{
+  background-size: cover;
+  width: 100%;
+  background-image: url('/work1/img/bg2.jpg');
+}
+
+.img-1{
+  padding-left: 20%;
+  padding-top: 50px;
+}
+
+

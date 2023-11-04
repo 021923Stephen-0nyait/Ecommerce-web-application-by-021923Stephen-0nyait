@@ -1,0 +1,143 @@
+/**Styling Staff login page*/
+
+/**Styling class login form*/
+.loginform{
+  transform: translate(116%,32%); 
+  width: 30%;
+  height: auto;
+  background: rgba(116, 110, 110, 0.089);
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border-top: 0;
+  border-color: rgba(68, 68, 68, 0.484);
+  border-radius: 35px;
+}
+
+h1{
+  color: rgb(170, 123, 87);
+  background-color: transparent;
+  padding-top: 60px;
+  margin-bottom: -60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.loginform input{
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.loginform input[type="password"], input[type="text"]{
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.103);
+  border-bottom: 1px solid rgba(112, 80, 70, 0.579);
+  color: white;
+}
+
+.loginform input[type="submit"]{
+  border: none; 
+  background-color: rgba(163, 123, 105, 0.735);
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.loginform input[type="submit"]:hover{
+  background-color: #e6b27ad4;
+  align-items: center;
+}
+
+/**Adding a background image*/
+body{
+  background-size: cover;
+  background-image: url('/work1/img/bg2.jpg');
+}
+
+/**Adding an icon and styling the user-icon*/
+.fa-user-circle{
+  padding-left: 39%;
+  font-size: 50px;
+  padding-top: 20px;
+  color:rgba(157, 95, 66, 0.735)
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 2px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 1px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav{
+  flex: 1;
+  padding-left: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 39px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar{
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#icon_nav{
+  padding-top: 35px;
+  height: 20px;
+  width: 20px;
+}

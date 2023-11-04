@@ -1,0 +1,234 @@
+/*** HOME PAGE STYLING: content_of_page class styling ***/
+
+.content_of_page h1{
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.content_of_page p{
+  font-size: 20px;
+  color: black;
+}
+
+.content_of_page{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.content_of_page .button{
+  margin-top: 20%;
+  display: inline-block;
+  background: rgb(235, 213, 200);
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: rgb(66, 69, 72);
+}
+
+.button:hover{
+  color: rgb(85, 54, 54);
+  background-color: bisque;
+}
+
+.text{
+  margin-top: 10px;
+  padding: 5%;
+  text-align: center;
+}
+
+/*** shop_button class styling ***/
+
+.shop_button{
+  margin-top: 30px;
+  display: inline-block;
+  background: burlywood;
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.shop_button:hover{
+  color: rgb(85, 54, 54);
+  background-color: bisque;
+}
+
+/*** row-1 class styling ***/
+.row-1{
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  align-items: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*** column-1 class styling diving each column-1 class into 25%,
+then the image width will be 100% ***/
+.column-1{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.column-1 img{
+  width: 100%;
+}
+
+/**Translate Y will move the image up by 10px when the user hovers on it**/
+.column-1:hover{
+  transform: translateY(-10px);
+}
+
+/*** column-1 class styling ***/
+.column-2:hover{
+  transform: translateY(-10px);
+}
+
+/*** column-2 class styling ***/
+.column-2{
+  flex-basis: 15%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.column-2 img{
+  width: 100%;
+}
+
+/*** row-2 class styling ***/
+.row-2{
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  align-items: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#text2{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/*** over_image_text class styling 
+when the user hovers over the image
+add to cart text appears***/
+
+.over_image_text {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.over_image_text--blur {
+  backdrop-filter: blur(5px);
+}
+
+.over_image_text > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.over_image_text:hover {
+  opacity: 1;
+}
+
+.over_image_text:hover > * {
+  transform: translateY(0);
+}
+
+/*** Add_Cart class styling***/
+
+.Add_Cart {
+  background-color: #d3ab90d4;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+  padding: 16px 17px;
+  border: 0;
+}
+
+/*** Add_Cart-2 class styling***/
+.Add_Cart-2 {
+  background-color: #d3ab90d4;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+
+}
+
+/*** search-container class styling***/
+.search-container {
+  float: right;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border-color: rgba(175, 126, 126, 0.606);
+  border-radius: 15px;
+  margin-top: -75px;
+}
+
+.search-container button {
+  float: right;
+  margin-top: -65px;
+  margin-right: -30px;
+  background: rgba(221, 221, 221, 0);
+  color: rgb(174, 155, 131);
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button{
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.search-container button:hover {
+  color: rgba(175, 126, 126, 0.905);
+}
+
+@media screen and (max-width: 600px) {
+  .search-container {
+    float: none;
+  }
+
+.input[type=text], .search-container button {
+    display: absolute;
+    left: 70%;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.searchbtns{
+  background: rgb(165, 112, 43);
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+}
+

@@ -1,0 +1,228 @@
+// Customer Table
+
+db.Customer.insert([
+{
+	_id: <ObjectId1>,	// CustomerID
+	"FirstName" : "Oliver",
+	"LastName" : "Queen",
+	"Email" : "oliver.queen@gmail.com",
+	"Street" : "72, Wells street",
+	"City" : "Star City",
+	"Country" : "Canada",
+	"ZIPcode" : 72109,
+	"PhoneNo" : 51232345,
+	"Password" : "1234CDab$"
+},
+{
+	_id: <ObjectId1>,	// CustomerID
+	"FirstName" : "Felicity",
+	"LastName" : "Smoke",
+	"Email" : "felicity.smoke@live.com",
+	"Street" : "22, Avenue Telfair",
+	"City" : "Belle Rose",
+	"Country" : "Mauritius",
+	"ZIPcode" : 89119,
+	"PhoneNo" : 51238880,
+	"Password" : "123Sjhh$"	
+},
+{
+	_id: <ObjectId1>,	// CustomerID
+	"FirstName" : "Tea",
+	"LastName" : "Michel",
+	"Email" : "tea.michel@gmail.com",
+	"Street" : "66, Royal Road",
+	"City" : "Port-Louis",
+	"Country" : "Mauritius",
+	"ZIPcode" : 56709,
+	"PhoneNo" : 512766444,
+	"Password" : "1234FG6b$"
+},
+{
+	_id: <ObjectId1>,	// CustomerID
+	"FirstName" : "Marge",
+	"LastName" : "Simpson",
+	"Email" : "marge.simp@live.co.uk",
+	"Street" : "24, Springfield",
+	"City" : "Ottawa",
+	"Country" : "Canada",
+	"ZIPcode" : 43220,
+	"PhoneNo" : 53545444,
+	"Password" : "1234fsdSDS67#"	
+},
+{
+	_id: <ObjectId1>,	// CustomerID
+	"FirstName" : "Bart",
+	"LastName" : "Simon",
+	"Email" : "Bart_simon@hotmail.com",
+	"Street" : "28, Nelson Avenue",
+	"City" : "Ontario",
+	"Country" : "Canada",
+	"ZIPcode" : 70109,
+	"PhoneNo" : 51448845,
+	"Password" : "1234CGag$"	
+},
+{
+	_id: <ObjectId1>,	// CustomerID
+	"FirstName" : "Lea",
+	"LastName" : "Goerge",
+	"Email" : "lea12@gmail.com",
+	"Street" : "38, Palmer Street",
+	"City" : "Los Angeles",
+	"Country" : "California",
+	"ZIPcode" : 56009,
+	"PhoneNo" : 4567890,
+	"Password" : "4564Hl$"	
+},
+]
+);
+
+
+// Product Table
+
+db.Product.insert([
+	{
+		_id: <ObjectId2>,	// ProductID
+		"Product_Name" : "Miami Tee",
+		"Image_URL" : "img/product1.jpg",
+		"Color" : "Blue",
+		"Category" : "Pastel",
+		"Stock_Available" : 100,
+		"Size" : "Medium",
+		"Price" : 350
+	},
+	{
+		_id: <ObjectId2>,	// ProductID
+		"Product_Name" : "New York Tee",
+		"Image_URL" : "img/product2.jpg",
+		"Color" : "Purple",
+		"Category" : "Pastel",
+		"Stock_Available" : 70,
+		"Size" : "Small",
+		"Price" : 450
+	},
+	{
+		_id: <ObjectId2>,	// ProductID
+		"Product_Name" : "Sun & Moon Tee",
+		"Image_URL" : "img/product3.jpg",
+		"Color" : "Black",
+		"Category" : "Tie&Dye",
+		"Stock_Available" : 90,
+		"Size" : "Large",
+		"Price" : 800
+	},
+	{
+		_id: <ObjectId2>,	// ProductID
+		"Product_Name" : "Smiley Tee",
+		"Image_URL" : "img/product4.jpg",
+		"Color" : "Black",
+		"Category" : "All Black",
+		"Stock_Available" : 10,
+		"Size" : "Small",
+		"Price" : 550
+	},
+	{
+		_id: <ObjectId2>,	// ProductID
+		"Product_Name" : "Cosmic Nature Tee",
+		"Image_URL" : "img/product5.jpg",
+		"Color" : "Blue",
+		"Category" : "Tie&Dye",
+		"Stock_Available" : 60,
+		"Size" : "Medium",
+		"Price" : 600
+	},
+	{
+		_id: <ObjectId2>,	// ProductID
+		"Product_Name" : "Maui Hawaii Tee",
+		"Image_URL" : "img/product6.jpg",
+		"Color" : "Pink",
+		"Category" : "Pastel",
+		"Stock_Available" : 100,
+		"Size" : "Large",
+		"Price" : 450
+	},
+	]
+	);
+
+
+// Order Table
+
+db.Order.insert([
+	{
+		_id: <ObjectId3>,	//OrderID
+		_id: <ObjectId1>,	//CustomerID
+		_id: <ObjectId2>,	// ProductID
+		"Order_Date" : "12/01/20",
+		"Shipping_Date" : "12/02/20",
+		"Status" : "Shipped",
+		"Quantity" : 2,
+		"Product_Bought" : "Black Tee",
+		"Total" : 700
+	},
+	{
+		_id: <ObjectId3>,	//OrderID
+		_id: <ObjectId1>,	//CustomerID
+		_id: <ObjectId2>,	// ProductID
+		"Order_Date" : "17/01/20",
+		"Shipping_Date" : "17/02/20",
+		"Status" : "Shipped",
+		"Quantity" : 1,
+		"Product_Bought" : "Skull Tee",
+		"Total" : 350
+	},
+	{
+		_id: <ObjectId3>,	//OrderID
+		_id: <ObjectId1>,	//CustomerID
+		_id: <ObjectId2>,	// ProductID
+		"Order_Date" : "22/01/20",
+		"Shipping_Date" : "22/02/20",
+		"Status" : "Shipped",
+		"Quantity" : 5,
+		"Product_Bought" : "Miami Tee",
+		"Total" : 4700
+	},
+	{
+		_id: <ObjectId3>,	//OrderID
+		_id: <ObjectId1>,	//CustomerID
+		_id: <ObjectId2>,	// ProductID
+		"Order_Date" : "10/02/20",
+		"Shipping_Date" : "10/03/20",
+		"Status" : "Not Shipped",
+		"Quantity" : 1,
+		"Product_Bought" : "New York Tee",
+		"Total" : 400
+	},
+	{
+		_id: <ObjectId3>,	//OrderID
+		_id: <ObjectId1>,	//CustomerID
+		_id: <ObjectId2>,	// ProductID
+		"Order_Date" : "13/02/20",
+		"Shipping_Date" : "13/03/20",
+		"Status" : "Not Shipped",
+		"Quantity" : 3,
+		"Product_Bought" : "Maui Hawaii Tee",
+		"Total" : 900
+	},
+	{
+		_id: <ObjectId3>,	//OrderID
+		_id: <ObjectId1>,	//CustomerID
+		_id: <ObjectId2>,	// ProductID
+		"Order_Date" : "16/03/20",
+		"Shipping_Date" : "16/04/20",
+		"Status" : "Not Shipped",
+		"Quantity" : 1,
+		"Product_Bought" : "Smiley Tee",
+		"Total" : 250
+	},
+	]
+	);
+
+
+// Staff Table
+
+db.Staff.insert([
+{
+	"UserName" : "admin",
+	"Password" : "1234"
+},
+]
+);

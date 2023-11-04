@@ -1,0 +1,112 @@
+/**Styling registration page*/
+
+/**Styling class user-form*/
+.user-form{
+    top: 40px;
+    width: 375px;
+    height: 615px;
+    position: relative;
+    margin: auto;
+    margin-top: -50px;
+    background: #ffffff38;
+    padding: 5px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+/**Styling class login-buttons*/
+.login-buttons{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgb(213, 210, 201); 
+    border-radius: 30px;
+}
+
+/**Styling class our-buttons*/
+.our-buttons{
+    padding: 15px 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+/**Styling id btn*/
+#btn{
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #D0AA9D;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+/**Styling class input-group*/
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+/**Styling class input-field*/
+.input-field{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 4px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #c59986b5;
+    outline: none;
+    background: transparent;
+}
+
+/**Styling class input-group*/
+.submitting{
+    width: 85%;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #D0AA9D;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+/**Styling form*/
+form{
+    position: relative;
+    left: 34px;
+}
+
+/**Styling id login*/
+#login{
+    left: 50px;
+}
+
+/**Styling id register*/
+#register{
+    left: 450px;
+}
+
+/**Styling class logo_form*/
+.logo_form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 95px;
+}
+
+/**Styling class center*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
